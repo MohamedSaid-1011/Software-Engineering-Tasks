@@ -175,7 +175,8 @@ nav a:hover i
 #our_team img:nth-of-type(5)
 {
 	border-top-left-radius: 50px;
-border-top-right-radius: 50px;}
+	border-top-right-radius: 50px;
+}
 #our_team img:nth-of-type(6)
 {
 	border-top-left-radius: 50px;
