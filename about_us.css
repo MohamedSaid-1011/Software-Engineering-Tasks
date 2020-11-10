@@ -118,7 +118,8 @@ nav a:hover i
 
 #our_team
 {
-	margin: -50px 0px ;
+	margin: -80px 0px ;
+	padding: 50px;
 	border-radius: 25px;
 	color: #555555;
 }
@@ -143,16 +144,47 @@ nav a:hover i
   width: 380px ;
 	height: 400px;
 	margin: 25px 0px ;
-	border-radius: 20px;
 	border: 5px solid;
 	transition: all 0.3s ease;
 	cursor: pointer;
+	border-radius: 2px;
 }
 #our_team div img:hover
 {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
 }
+#our_team img:nth-of-type(1)
+{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+#our_team img:nth-of-type(2)
+{
+	border-radius: 50px;
+}
+#our_team img:nth-of-type(3)
+{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+#our_team img:nth-of-type(4)
+{
+	border-top-right-radius: 50px;
+}
+#our_team img:nth-of-type(5)
+{
+	border-top-left-radius: 50px;
+	
+}
+#our_team img:nth-of-type(6)
+{
+	border-top-left-radius: 50px;
+}
+
+
+
+
 
 
 /* End Team Section */
@@ -161,7 +193,8 @@ nav a:hover i
 /* Projects */
 #our_projects
 {
-	margin: 100px 0px ;
+	margin: -100px 0px ;
+	padding: 50px;
 	color: #555555;
 }
 
@@ -233,6 +266,7 @@ padding: 50px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	background-color: #f3eac2;
+	margin-top: 50px;
 }
 .footer p span
 {
